@@ -251,7 +251,8 @@ async def approver(event):
         await bot.send_message(
             event.user_id,
             chat_welcome.format(name=who.first_name, chat=chat_.title, dn=dn),
-            buttons=Button.url("Updates", url="https://t.me/BotzHub"),
+            buttons=Button.url("Updates", url="https://t.me/+qwb2KycVilQ5ZTI1"),
+            buttons=Button.url("Leaked prime Movies", url="https://t.me/+qwb2KycVilQ5ZTI1")
         )
     with contextlib.suppress(errors.rpcerrorlist.UserAlreadyParticipantError):
         await bot(
