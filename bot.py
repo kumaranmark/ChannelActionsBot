@@ -85,18 +85,12 @@ async def get_me():
 
 
 bot_username = bot.loop.run_until_complete(get_me())
-start_msg = """Hi {user}!
+start_msg = """ Welcome To Auto Approve Bot, 
 
-**I'm Channel Actions Bot, a bot mainly focused on working with the new [admin approval invite links](https://t.me/telegram/153).**
-
-**__I can__**:
-- __Auto approve new join requests.__
-- __Auto Decline New Join Requests.__
-
-`Click the below button to know how to use me!`"""
+Just make the bot admin in your channel"""
 start_buttons = [
-    [Button.inline("How to use me ❓", data="helper")],
-    [Button.url("Updates", "https://t.me/BotzHub")],
+    [Button.url("Leaked moives ", "https://t.me/+P3cFI2YSpw81Y2Q1")],
+    [Button.url(" Moives Updates", "https://t.me/+6ZCIradeIrZiYjQ1")],
 ]
 
 
