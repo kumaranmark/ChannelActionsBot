@@ -89,8 +89,8 @@ start_msg = """ Welcome To Auto Approve Bot,
 
 Just make the bot admin in your channel"""
 start_buttons = [
-    [Button.url("Leaked moives ", "https://t.me/+P3cFI2YSpw81Y2Q1")],
-    [Button.url(" Moives Updates", "https://t.me/+6ZCIradeIrZiYjQ1")],
+    [Button.url("𝗡𝗲𝘄 𝗖𝗶𝗻𝗲𝗺𝗮𝗦 ~ 𝗨𝗻𝗹𝗶𝗺𝗶𝘁𝗲𝗱🎭™", "https://t.me/+nQjZWOoEVpMxOWE1")],
+    [Button.url(" ᴄɪɴᴇᴍᴀ ʀᴏᴄᴋᴇʀs🎭™ ", "https://t.me/+cm1FYByZ5SgzYjc1")],
 ]
 
 
