@@ -251,11 +251,11 @@ async def approver(event):
         await bot.send_message(
             event.user_id,
             chat_welcome.format(name=who.first_name, chat=chat_.title, dn=dn),
-            buttons=[[Button.url(" Moives Updates", url="https://t.me/+SbfCX7vTNbozMGU1")],
+            buttons=[[Button.url(" Moives Updates", url="https://t.me/+cm1FYByZ5SgzYjc1")],
 
-                     [Button.url("👉OTT Releases👈", url="t.me/+m5SuGR2slNxkOThl")],
+                     [Button.url("👉OTT Releases👈", url="https://t.me/+nQjZWOoEVpMxOWE1")],
 
-                     [Button.url("✅Theatre release✅", url="https://t.me/+SbfCX7vTNbozMGU1")],])
+                     [Button.url("✅Theatre release✅", url="https://t.me/+nQjZWOoEVpMxOWE1")],])
             
     with contextlib.suppress(errors.rpcerrorlist.UserAlreadyParticipantError):
         await bot(
